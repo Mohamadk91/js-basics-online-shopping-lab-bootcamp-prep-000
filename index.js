@@ -32,8 +32,7 @@ function viewCart() {
   } else if (cart.length === 2){
     console.log(`In your cart, you have ${itemAndPrices.join(' and ')}.`);
   } else {
-    // 'and quince at $43' itemsAndPrices[3]
-    itemAndPrices[cart.length - 1] = `and ${itemAndPrices[cart.length - 1]}`
+        itemAndPrices[cart.length - 1] = `and ${itemAndPrices[cart.length - 1]}`
     console.log(`In your cart, you have ${itemAndPrices.join(', ')}.`);
   return cart
   }
